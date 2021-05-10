@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface OperationDAO {
     void saveOperation(Operation operation);
-    List<Operation> listOperation(User user);
+
+    List<Operation> getListOperation();
 }
